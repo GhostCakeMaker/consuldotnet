@@ -46,6 +46,7 @@ namespace Consul
     {
         [JsonProperty]
         internal List<TxnResult> Results { get; set; }
+
         [JsonProperty]
         internal List<TxnError> Errors { get; set; }
     }
